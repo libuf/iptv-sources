@@ -58743,6 +58743,9 @@
 	<programme channel="newtv超级体育" start="20261029123500 +0800" stop="20261029125800 +0800">
 		<title lang="zh">艺术里的奥林匹克</title>
 	</programme>
+	<programme channel="newtv超级体育" start="20261029125800 +0800" stop="20261029150000 +0800">
+		<title lang="zh">实况录像-2026年世界体操锦标赛 男子团体决赛</title>
+	</programme>
 	<channel id="newtv超级电影">
 		<display-name lang="zh">NEWTV超级电影</display-name>
 	</channel>
