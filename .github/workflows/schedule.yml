@@ -44,11 +44,3 @@ jobs:
           enable_jekyll: true
           # 删掉了 cname: m3u.ibert.me —— 那是原作者的域名，
           # 你 fork 没这个域名，留着会让 GitHub Pages 域名所有权验证失败
-
-      - name: discord
-        # fork 里没有 DISCORD_WEBHOOK secret，加条件：没有就跳过，不报错
-        if: ${{ secrets.DISCORD_WEBHOOK != '' }}
-        uses: HerbertHe/discord-action@v1
-        with:
-          webhook: ${{ secrets.DISCORD_WEBHOOK }}
-          message: ${{ github.repository }} has been successfully updated.
