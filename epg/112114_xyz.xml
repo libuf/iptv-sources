@@ -59442,6 +59442,9 @@
 	<programme channel="newtv金牌综艺" start="20261029122400 +0800" stop="20261029130900 +0800">
 		<title lang="zh">24_风声</title>
 	</programme>
+	<programme channel="newtv金牌综艺" start="20261029130900 +0800" stop="20261029133900 +0800">
+		<title lang="zh">珍膳私享特膳粉好物推荐第四期</title>
+	</programme>
 	<channel id="newtv精品体育">
 		<display-name lang="zh">NEWTV精品体育</display-name>
 	</channel>
